@@ -1,0 +1,52 @@
+.hero{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer{
+            margin-top: 200px;
+            margin-left: 200px;
+            width: auto;
+            align-items:flex-start;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            h2 {
+                font-size: 36px;
+                color: #50fa7b;
+                letter-spacing: 10px;
+            }
+
+            h1{
+                font-size: 88px;
+                line-height: 88px;
+
+            }
+
+            button{
+                
+                letter-spacing: 2px;
+                padding: 20px;
+                border: 2px solid #ff79c6;
+                border-radius: 10px;
+                color: white;
+                background-color: transparent;
+                margin-top: 10px;
+                margin-right: 50px;
+                
+
+            img {
+                width: 50px;
+            }
+        }
+        }
+    }
+};
