@@ -1,4 +1,4 @@
-import "./App.scss"
+import "./app"
 import Navbar from "./Navbar";
 import Hero from "./componenets/hero/Hero";
 
