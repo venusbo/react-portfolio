@@ -1,6 +1,6 @@
 import "./App.scss"
-import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
 
 const App = () => {
   return <div>
