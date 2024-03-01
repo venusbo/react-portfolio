@@ -1,6 +1,6 @@
 import "./app"
 import Navbar from "./Navbar";
-import Hero from "./componenets/hero/Hero";
+import Hero from "./Hero";
 
 const App = () => {
   return <div>
