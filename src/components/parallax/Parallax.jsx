@@ -1,6 +1,6 @@
 import {useRef} from "react";
-import "./parallax.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
+import "./parallax.scss";
 
 const Parallax = ({ type }) => {
 
