@@ -2,7 +2,7 @@ import {useRef} from "react";
 import "./parallax.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const parallax = ({ type }) => {
+const Parallax = ({ type }) => {
 
     const ref = useRef()
 
@@ -41,4 +41,4 @@ const parallax = ({ type }) => {
     )
 }
 
-export default parallax
+export default Parallax
