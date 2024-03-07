@@ -1,6 +1,6 @@
 .hero{
     height: calc(100vh - 100px);
-    background: linear-gradient(180deg, #0c0c1d, #111132);
+    background: linear-gradient(180deg, #282a36, #2bd8ff70);
     position: relative;
 
     .wrapper{
@@ -41,12 +41,16 @@
                 background-color: transparent;
                 margin-top: 10px;
                 margin-right: 50px;
-                
+                cursor: pointer;
 
             img {
                 width: 50px;
             }
+
+
         }
         }
+
+    
     }
 };
