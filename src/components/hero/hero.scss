@@ -2,6 +2,7 @@
     height: calc(100vh - 100px);
     background: linear-gradient(180deg, #282a36, #2bd8ff70);
     position: relative;
+    overflow: hidden;
 
     .wrapper{
         max-width: 1366px;
@@ -9,8 +10,8 @@
         margin: auto;
 
         .textContainer{
-            margin-top: 200px;
-            margin-left: 200px;
+            margin-top: 30vh;
+            margin-left: 10%;
             width: auto;
             align-items:flex-start;
             height: 100px;
