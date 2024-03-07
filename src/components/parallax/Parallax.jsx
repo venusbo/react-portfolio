@@ -41,5 +41,4 @@ const parallax = ({ type }) => {
     )
 }
 
-
 export default parallax
